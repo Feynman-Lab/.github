@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Feynman Lab — Ideas into reality.</title>
+  <desc id="desc">A restrained midnight-blue banner with the Feynman Lab mark and a scientific orbit diagram.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0b1729"/>
+      <stop offset="1" stop-color="#08111f"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8db3e1" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#5277a9" stop-opacity=".25"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="360" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#background)"/>
+    <path d="M0 306H1200M0 54H1200" stroke="#557394" stroke-opacity=".18"/>
+    <path d="M59 0V360M1141 0V360" stroke="#557394" stroke-opacity=".12"/>
+    <g transform="translate(68 75)">
+      <path d="M10 60V0h47M10 30h35" fill="none" stroke="#f5f7fb" stroke-width="5" stroke-linecap="square"/>
+      <path d="M49 0c14 2 22 13 19 27-2 14-14 29-30 33" fill="none" stroke="#81a6d2" stroke-width="2.5"/>
+      <circle cx="68" cy="27" r="5" fill="#81a6d2"/>
+      <circle cx="38" cy="60" r="3.5" fill="#f5f7fb"/>
+    </g>
+    <text x="70" y="219" fill="#f4f6fa" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="600" letter-spacing="-2.4">Feynman Lab</text>
+    <text x="73" y="260" fill="#aebdce" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing=".25">Ideas into reality.</text>
+    <g transform="translate(1000 181)" fill="none">
+      <path d="M-250 0H250M0-220V220" stroke="#8ba9c9" stroke-opacity=".12"/>
+      <circle r="177" stroke="#8ba9c9" stroke-opacity=".18"/>
+      <circle r="111" stroke="#8ba9c9" stroke-opacity=".12"/>
+      <path d="M-169 53C-107 183 82 172 154 20 205-93 64-178-65-121-160-79-112 16-21 31 48 42 104-14 91-78" stroke="url(#orbit)" stroke-width="1.7"/>
+      <path d="M-151-81C-94-177 72-188 151-83 224 13 111 158-14 150" stroke="#668cc1" stroke-opacity=".43" stroke-width="1.2"/>
+      <circle cx="-169" cy="53" r="5" fill="#d7e8fb"/>
+      <circle cx="154" cy="20" r="5" fill="#81a6d2"/>
+      <circle cx="91" cy="-78" r="3" fill="#bed5f0"/>
+      <circle r="5" fill="#d7e8fb"/>
+    </g>
+    <text x="749" y="286" fill="#8fa8c5" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="3.5">IDEA</text>
+    <text x="1100" y="73" fill="#8fa8c5" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="3.5">BUILD</text>
+    <path d="M70 306h32M1100 306h30" stroke="#7b9cc2" stroke-opacity=".55"/>
+  </g>
+</svg>
